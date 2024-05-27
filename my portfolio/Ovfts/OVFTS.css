@@ -1,0 +1,586 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "K2D", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(Welcome\ to_upscayl_4x_ultrasharp.png);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+header nav a.active {
+    background: black;
+}
+
+header nav a:hover {
+    background: black;
+}
+
+header nav:hover>a:not(:hover) {
+    background: none;
+}
+
+.eca h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    margin-top: 200px;
+    margin-left: 280px;
+    text-shadow: 2px 2px black;
+}
+
+.eca h3 {
+    font-size: 50px;
+    font-weight: 100;
+    color: yellow;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    text-shadow: 2px 2px black;
+}
+
+.eca p {
+    color: white;
+    position: absolute;
+    left: 280px;
+    text-shadow: 2px 2px black;
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+}
+
+button {
+    appearance: button;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: absolute;
+    top: 350px;
+    left: 1300px;
+    height: 70px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px black;
+}
+
+button:after {
+    background-clip: padding-box;
+    box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315), 4px 4px 4px rgba(28, 28, 28, 0.13);
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+button:main,
+button:focus {
+    user-select: auto;
+}
+
+button:hover:not(:disabled) {
+    filter: brightness(10);
+}
+
+button:disabled {
+    cursor: auto;
+}
+
+button:active:after {
+    border-width: 0 0 0px;
+}
+
+button:active {
+    padding-bottom: 10px;
+}
+
+.contactus a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    top: 930px;
+}
+
+.contactus a:hover {
+    border-bottom: 2px solid white;
+}
+
+.mission h3 {
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 250px;
+}
+
+.mission p {
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 250px;
+    text-align: justify;
+    margin: auto;
+    width: 22%;
+}
+
+.vision h3 {
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 830px;
+}
+
+.vision p {
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 830px;
+    text-align: justify;
+    margin: auto;
+    width: 22%;
+}
+
+.core h3 {
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 1400px;
+}
+
+.core p {
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 1400px;
+    text-align: justify;
+    margin: auto;
+    width: 22%;
+}
+
+hr {
+    background-color: white;
+    height: 3px;
+    width: 1770px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 800px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+}
+
+.vl1 {
+    border-left: 2px solid white;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 1460px;
+}
+
+.vl2 {
+    border-left: 2px solid white;
+    height: 150px;
+    position: absolute;
+    top: 870px;
+    left: 1320px;
+}
+
+.vl3 {
+    border-left: 2px solid white;
+    height: 150px;
+    position: absolute;
+    top: 870px;
+    left: 750px;
+}
+
+.vl4 {
+    border-left: 2px solid white;
+    height: 150px;
+    position: absolute;
+    top: 870px;
+    left: 200px;
+}
+
+@media only screen and(max-width: 1536px) {
+    .eca h1 {
+        font-size: 75px;
+        margin-left: 250px;
+    }
+    .eca h3 {
+        font-size: 45px;
+        position: absolute;
+        left: 220px;
+    }
+    .eca p {
+        font-size: 18px;
+        position: absolute;
+        left: 250px;
+        margin: auto;
+        width: 35%;
+        text-align: justify;
+    }
+    button {
+        position: absolute;
+        left: 1000px;
+    }
+    header {
+        position: absolute;
+        left: 830px;
+    }
+    .contactus a {
+        font-size: 30px;
+        position: absolute;
+        left: 30px;
+        top: 720px;
+    }
+    .mission h3 {
+        font-size: 25px;
+        position: absolute;
+        top: 650px;
+        left: 230px;
+    }
+    .mission p {
+        font-size: 18px;
+        position: absolute;
+        top: 690px;
+        left: 230px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    .vision h3 {
+        font-size: 30px;
+        position: absolute;
+        top: 650px;
+        left: 670px;
+    }
+    .vision p {
+        font-size: 18px;
+        position: absolute;
+        top: 690px;
+        left: 670px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    .core h3 {
+        font-size: 30px;
+        position: absolute;
+        top: 650px;
+        left: 1100px;
+    }
+    .core p {
+        font-size: 18px;
+        position: absolute;
+        top: 690px;
+        left: 1100px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    hr {
+        width: 1390px;
+        top: 630px;
+    }
+    .vl {
+        height: 50px;
+        position: absolute;
+        top: 35px;
+        left: 1015px;
+    }
+    .vl1 {
+        height: 50px;
+        position: absolute;
+        top: 35px;
+        left: 1175px;
+    }
+    .vl2 {
+        display: none;
+    }
+    .vl3 {
+        display: none;
+    }
+    .vl4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    body {
+        background-size: 1366px 768px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .eca h1 {
+        font-size: 70px;
+        margin-left: 250px;
+    }
+    .eca h3 {
+        font-size: 40px;
+        position: absolute;
+        left: 220px;
+    }
+    .eca p {
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+        margin: auto;
+        width: 35%;
+        text-align: justify;
+    }
+    button {
+        position: absolute;
+        left: 900px;
+    }
+    header {
+        position: absolute;
+        left: 700px;
+    }
+    .contactus a {
+        font-size: 20px;
+        position: absolute;
+        left: 30px;
+        top: 650px;
+    }
+    .mission h3 {
+        font-size: 25px;
+        position: absolute;
+        top: 600px;
+        left: 180px;
+    }
+    .mission p {
+        font-size: 13px;
+        position: absolute;
+        top: 650px;
+        left: 180px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    .vision h3 {
+        font-size: 25px;
+        position: absolute;
+        top: 600px;
+        left: 580px;
+    }
+    .vision p {
+        font-size: 13px;
+        position: absolute;
+        top: 650px;
+        left: 580px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    .core h3 {
+        font-size: 25px;
+        position: absolute;
+        top: 600px;
+        left: 980px;
+    }
+    .core p {
+        font-size: 13px;
+        color: white;
+        position: absolute;
+        top: 650px;
+        left: 980px;
+        text-align: justify;
+        margin: auto;
+        width: 25%;
+    }
+    hr {
+        width: 1200px;
+        top: 580px;
+    }
+    .vl {
+        height: 50px;
+        position: absolute;
+        top: 35px;
+        left: 880px;
+    }
+    .vl1 {
+        height: 50px;
+        position: absolute;
+        top: 35px;
+        left: 1035px;
+    }
+    .vl2 {
+        height: 120px;
+        position: absolute;
+        top: 610px;
+        left: 950px;
+    }
+    .vl3 {
+        height: 120px;
+        position: absolute;
+        top: 610px;
+        left: 550px;
+    }
+    .vl4 {
+        height: 120px;
+        position: absolute;
+        top: 610px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .eca h1 {
+        font-size: 30px;
+        position: absolute;
+        right: 200px;
+        bottom: 420px;
+    }
+    .eca h3 {
+        font-size: 25px;
+        position: absolute;
+        left: 38px;
+        top: 100px;
+    }
+    .eca p {
+        font-size: 12px;
+        position: absolute;
+        left: 43px;
+        top: 310px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 30px;
+    }
+    button {
+        position: absolute;
+        left: 50px;
+        top: 400px;
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    hr {
+        display: none;
+    }
+    .contact h2 {
+        display: none;
+    }
+    .navlist {
+        display: block;
+    }
+    .navlist a {
+        position: absolute;
+        left: 10px;
+        display: none;
+        font-size: 12px;
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .mission h3 {
+        display: none;
+    }
+    .mission p {
+        display: none;
+    }
+    .vision h3 {
+        display: none;
+    }
+    .vision p {
+        display: none;
+    }
+    .core h3 {
+        display: none;
+    }
+    .core p {
+        display: none;
+    }
+    .vl {
+        display: none;
+    }
+    .vl1 {
+        display: none;
+    }
+    .vl2 {
+        display: none;
+    }
+    .vl3 {
+        display: none;
+    }
+    .vl4 {
+        display: none;
+    }
+}
